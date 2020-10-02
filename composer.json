@@ -1,6 +1,6 @@
 {
-  "name": "simplon/mysql",
-  "description": "Simplon MySQL Library",
+  "name": "gimmenetwork/simplon_mysql",
+  "description": "[FORK] Simplon MySQL Library",
   "homepage": "https://github.com/fightbulc/simplon_mysql",
   "type": "library",
   "keywords": [
@@ -17,10 +17,16 @@
       "role": "developer"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/gimmenetwork/simplon_helper"
+    }
+  ],
   "minimum-stability": "dev",
   "require": {
     "php": ">=7.1",
-    "simplon/helper": "^1.0",
+    "gimmenetwork/simplon_helper": "^1.0",
     "ext-pdo": "*"
   },
   "autoload": {
