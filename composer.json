@@ -34,5 +34,8 @@
       "Simplon\\Mysql\\": "src/",
       "Test\\": "test/"
     }
+  },
+  "replace": {
+    "simplon/mysql": "2.*"
   }
 }
